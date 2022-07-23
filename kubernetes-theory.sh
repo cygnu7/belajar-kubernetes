@@ -16,3 +16,15 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 # How Kubernetes Work
 - Just Create a Configuration File with YML type, then submit it to Kubernetes Master.
 - Kubernetes Master will inform Kubernetes Workers to do something based on the Configuration File.
+
+# Kubernetes Master
+- kube-apiserver
+- etcd
+- kube-scheduler
+- kube-controller-manager
+- cloud-controller-manager
+
+# Kubernetes Nodes
+- kubelet
+- kube-proxy
+- container manager
