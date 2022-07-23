@@ -12,3 +12,7 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - At first, Google Invented Internal System called Borg (then the name changed to Omega).
 - This system help Google to manage many Server.
 - Google Published Kubernetes at 2014, as an Open Source System, based on Omega Experience.
+
+# How Kubernetes Work
+- Just Create a Configuration File with YML type, then submit it to Kubernetes Master.
+- Kubernetes Master will inform Kubernetes Workers to do something based on the Configuration File.
