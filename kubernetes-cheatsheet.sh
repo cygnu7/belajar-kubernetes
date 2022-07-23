@@ -7,4 +7,11 @@ $ minikube start
 $ minikube stop
 
 # Kubectl
+## Tools to interact with kubernetes cluster
 $ kubectl version
+
+# Show all nodes
+$ kubectl get node
+
+# Show Node Details
+$ kubectl describe node minikube

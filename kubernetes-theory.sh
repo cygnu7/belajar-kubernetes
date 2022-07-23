@@ -28,3 +28,8 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - kubelet
 - kube-proxy
 - container manager
+
+# What is Node?
+- Worker machine on Kubernetes
+- Node is a VM or Physical Machine
+- Node contains kubelet, kube-proxy, and container manager
