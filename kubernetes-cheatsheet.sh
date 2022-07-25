@@ -5,6 +5,7 @@
 # Minikube
 $ minikube start
 $ minikube stop
+$ minikube status
 
 # Kubectl
 ## Tools to interact with kubernetes cluster
@@ -15,3 +16,14 @@ $ kubectl get node
 
 # Show Node Details
 $ kubectl describe node minikube
+
+# Create Pod
+$ kubectl create -f podfile.yaml
+
+# Pod Details
+$ kubectl get pod
+$ kubectl get pod -o wide
+$ kubectl describe pod [pod-name]
+
+# Test Running Pods
+$ kubectl port-forward [pod-name] [local-port]:[pod-port]
