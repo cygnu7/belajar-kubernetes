@@ -33,3 +33,12 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Worker machine on Kubernetes
 - Node is a VM or Physical Machine
 - Node contains kubelet, kube-proxy, and container manager
+
+# What is Pod
+- Pod is the smallest unit at Kubernetes cluster
+- Pod can contain many container
+- Pod is running apps at Kubernetes Cluster
+
+# Why use Pod
+- Easy to Scaling
+- Can use many container in one Pod
