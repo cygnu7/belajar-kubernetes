@@ -46,4 +46,5 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 # What is Label
 - Label is important for Pod
 - To Organize Pod
-- Label can be used to many Kubernetes Resource.
+- Label can be used to many Kubernetes Resources
+

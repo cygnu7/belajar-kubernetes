@@ -20,6 +20,9 @@ $ kubectl describe node minikube
 # Create Pod
 $ kubectl create -f podfile.yaml
 
+# Delete Pod
+$ kubectl delete pod [pod-name]
+
 # Pod Details
 $ kubectl get pod
 $ kubectl get pod -o wide
