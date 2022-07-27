@@ -30,3 +30,7 @@ $ kubectl describe pod [pod-name]
 
 # Test Running Pods
 $ kubectl port-forward [pod-name] [local-port]:[pod-port]
+
+# Find Pod with Label
+
+# Find Pod with many Label
