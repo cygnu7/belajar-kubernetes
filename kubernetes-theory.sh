@@ -53,5 +53,6 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - To add more description with big size
 - Annotation can contain description up to 256kb
 
-# What is Namespace
-- To separate Resources for multi-tenant
+# Why use Namespace
+- To separate Resources for multi-tenant, team, or environtment
+- Use when too many Resources at Kubernetes
