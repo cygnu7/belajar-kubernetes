@@ -56,3 +56,4 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 # Why use Namespace
 - To separate Resources for multi-tenant, team, or environtment
 - Use when too many Resources at Kubernetes
+- Same Resources can run if use different namespace
