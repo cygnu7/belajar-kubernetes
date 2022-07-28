@@ -34,7 +34,7 @@ $ kubectl port-forward [pod-name] [local-port]:[pod-port]
 # Show Pod with Label
 $ kubectl get pods --show-labels
 
-# Add Lable at Running Pod
+# Add Label at Running Pod
 $ kubectl label pod [pod-name] [key]=[value]
 
 # Update Label at Running Pod
@@ -50,3 +50,9 @@ $ kubectl get pods -l ['key notin (value1, value2)']
 
 # Find Pod with many Label
 $ kubectl get pods [key]=[value],[key2]=[value]
+
+# Add Annotation at Running Pod
+$ kubectl annotate pod [pod-name] [key]=[value]
+
+# Update Annotation at Running Pod
+$ kubectl annotate pod [pod-name] [key]=[value] --overwrite
