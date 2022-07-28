@@ -18,6 +18,7 @@ $ kubectl get node
 $ kubectl describe node minikube
 
 # Create Pod
+## Create pod yaml file configuration
 $ kubectl create -f podfile.yaml
 
 # Delete Pod
@@ -64,3 +65,7 @@ $ kubectl get ns
 
 # Show Pod in Namespace
 $ kubectl get pod -n Namespace
+
+# How to create Namespace
+## Create namespace yaml file configuration
+$ kubectl create -f namespace-file.yaml
