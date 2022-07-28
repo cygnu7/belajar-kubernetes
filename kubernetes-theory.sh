@@ -48,3 +48,7 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - To Organize Pod
 - Label can be used to many Kubernetes Resources
 
+# What is Annotation
+- Look like Label, but cannot use for filter
+- To add more description with big size
+- Annotation can contain description up to 256kb
