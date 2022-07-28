@@ -69,3 +69,6 @@ $ kubectl get pod -n Namespace
 # How to create Namespace
 ## Create namespace yaml file configuration
 $ kubectl create -f namespace-file.yaml
+
+# How to delete Namespace
+$ kubectl delete namespace [namespace-name]
