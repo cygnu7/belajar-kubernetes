@@ -5,7 +5,7 @@ metadata:
   labels:
     version: 1.4.5
     team: finance
-    key: mylabel
+    environtment: production
 spec:
   containers:
     - name: nginx

@@ -3,10 +3,12 @@ kind: Pod
 metadata:
   name: nginx-with-annotation
   labels:
-    version: 1.4.5
-    team: finance
-    key: mylabel
-  annotation:
+    version: 1.0.3
+    team: product
+    environtment: development
+  annotations:
+    descripttion: This is product description
+    anything: bla bla bla 
 spec:
   containers:
     - name: nginx
