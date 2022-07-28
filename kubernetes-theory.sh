@@ -57,3 +57,8 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - To separate Resources for multi-tenant, team, or environtment
 - Use when too many Resources at Kubernetes
 - Same Resources can run if use different namespace
+
+# What you should know about Namespace
+- Pod with same name can run if use different namespace
+- Namespace not for isolate Resources
+- Pod still can communicate with other pod that have different namespace
