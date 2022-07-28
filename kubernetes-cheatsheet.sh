@@ -56,3 +56,11 @@ $ kubectl annotate pod [pod-name] [key]=[value]
 
 # Update Annotation to Running Pod
 $ kubectl annotate pod [pod-name] [key]=[value] --overwrite
+
+# Show Namespace
+$ kubectl get namespaces
+$ kubectl get namespace
+$ kubectl get ns
+
+# Show Pod in Namespace
+$ kubectl get pod -n Namespace
