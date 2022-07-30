@@ -64,3 +64,9 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Pod still can communicate with other pod that have different namespace
 
 # Kubernetes Liveness, Readiness, Startup Probe
+- Kubelet use liveness probe to check when to restart the Pod
+- If liveness probe not responding, kubelet will do automatic restart to Pod
+- Kubelet use readiness probe to check if Pod ready to receive traffic
+- Kubelet use startup probe to check if Pod already running or not
+- Kubelet wont run liveness and readiness probe if Pod is not running
+- Startup probe is important to Pod that have long startup time
