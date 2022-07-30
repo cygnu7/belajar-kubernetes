@@ -78,3 +78,5 @@ $ kubectl create -f namespace-file.yaml
 
 # How to delete Namespace
 $ kubectl delete namespace [namespace-name]
+
+test
