@@ -24,6 +24,12 @@ $ kubectl create -f podfile.yaml
 # Delete Pod
 $ kubectl delete pod [pod-name]
 
+# Delete Pod use Label
+$ kubectl delete pod -l [key]=[value]
+
+# Delete All Pod in Namespace
+$ kubectl delete pod --all --namespace [namespace-name]
+
 # Pod Details
 $ kubectl get pod
 $ kubectl get pod -o wide
