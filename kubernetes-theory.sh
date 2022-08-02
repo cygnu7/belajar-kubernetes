@@ -70,3 +70,8 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Kubelet use startup probe to check if Pod already running or not
 - Kubelet wont run liveness and readiness probe if Pod is not running
 - Startup probe is important to Pod that have long startup time
+
+# Probe Mechanism
+- HTTP Get
+- TCP Socket
+- Command Exec
