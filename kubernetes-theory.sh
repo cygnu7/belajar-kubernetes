@@ -75,3 +75,16 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - HTTP Get
 - TCP Socket
 - Command Exec
+
+# What is Replication Controller
+- Replication Controller make sure Pod is running
+- If Pod suddenly stop or lost, then Replication Controller will automate running the Pod that suddenly stop
+- Replication Controller usually manage more than 1 Pod
+- Replication Controller will confirming that the Running Pod is same with Configuratiion, if the Pod is less than the Configuration, Replication Controller will add new Pod
+- If the Pod more than the configuratiion, Replication Controller will delete the Pod
+- Usually, we dont create Pod manually, always use Controller like Replication Controller
+
+# What is Inside Replication Controller
+- Label Selector
+- Replica Count
+- Pod Template
