@@ -72,17 +72,23 @@ $ kubectl get ns
 # Show Pod in Namespace
 $ kubectl get pod -n Namespace
 
-# How to create Namespace
+# Create Namespace
 ## Create namespace yaml file configuration
 $ kubectl create -f namespace-file.yaml
 
-# How to delete Namespace
+# Delete Namespace
 $ kubectl delete namespace [namespace-name]
 
-# How to create Replication Controller
+# Create Replication Controller
 $ kubectl create -f [rc-file]
 
-# How to check Replication Controller
+# Check Replication Controller
 $ kubectl get replicationcontrollers
 $ kubectl get replicationcontroller
 $ kubectl get rc
+
+# Delete Replication Controller and Pod Inside RC
+$ kubectl delete rc nginx-rc
+
+# Delete Replication Controller without delete Pod
+$ kubectl delete rc nginx-rc --cascade=false
