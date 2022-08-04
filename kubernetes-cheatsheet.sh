@@ -79,3 +79,10 @@ $ kubectl create -f namespace-file.yaml
 # How to delete Namespace
 $ kubectl delete namespace [namespace-name]
 
+# How to create Replication Controller
+$ kubectl create -f [rc-file]
+
+# How to check Replication Controller
+$ kubectl get replicationcontrollers
+$ kubectl get replicationcontroller
+$ kubectl get rc
