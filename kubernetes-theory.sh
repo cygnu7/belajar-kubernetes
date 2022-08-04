@@ -88,3 +88,6 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Label Selector
 - Replica Count
 - Pod Template
+
+# Before Deleting Replication Controller
+- Make sure add option '--cascade=orphan' if you dont want to delete the Pod inside Replication Controller
