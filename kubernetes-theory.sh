@@ -91,3 +91,10 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 
 # Before Deleting Replication Controller
 - Make sure add option '--cascade=orphan' if you dont want to delete the Pod inside Replication Controller
+
+# What is Replica Set
+- Replica Set is the newest generation froom Replication Controller
+- Replica Set have similiar abilities with Replication Controller
+- Replica Set have expressive label selector
+- Replica Set supports the new set-based selector. Not equality-based selector
+- Replication Controller now deprecated
