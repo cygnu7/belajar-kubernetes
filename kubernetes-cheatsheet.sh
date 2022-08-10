@@ -92,3 +92,6 @@ $ kubectl delete rc nginx-rc
 
 # Delete Replication Controller without delete Pod
 $ kubectl delete rc nginx-rc --cascade=false
+
+# Create Replica Set
+$ kubectl create -f [rs-file]
