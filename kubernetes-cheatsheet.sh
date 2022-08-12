@@ -95,3 +95,12 @@ $ kubectl delete rc nginx-rc --cascade=false
 
 # Create Replica Set
 $ kubectl create -f [rs-file]
+
+# Create Daemon Set
+$ kubectl create -f [daemonset-file]
+
+# Show Daemon Set
+$ kubectl get daemonsets
+
+# Delete Daemon Set 
+$ kubectl delete daemonsets [daemonset-name]
