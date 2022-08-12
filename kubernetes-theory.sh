@@ -104,3 +104,12 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - NotIn, value not in
 - Exist, must have label
 - NotExist, label not exist
+
+# What is Daemon Set
+- When use Replica Set or Replication Controller, Pod will running at Random Node 
+- Use Daemon Set if you want to manage the Pod to run at every Node in Kubernetes.
+- By default, Daemon Set will run Pod at each Node
+
+# Study Case with Daemon Set
+- Create Apps to monitoring Node
+- Create apps to get log in Node
