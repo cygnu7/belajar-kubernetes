@@ -98,3 +98,9 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Replica Set have expressive label selector
 - Replica Set supports the new set-based selector. Not equality-based selector
 - Replication Controller now deprecated
+
+# Match Expression Operator Option
+- In, must have value
+- NotIn, value not in
+- Exist, must have label
+- NotExist, label not exist
