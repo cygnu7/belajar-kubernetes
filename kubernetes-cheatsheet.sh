@@ -104,3 +104,12 @@ $ kubectl get daemonsets
 
 # Delete Daemon Set 
 $ kubectl delete daemonsets [daemonset-name]
+
+# Create Job
+$ kubectl create -f [job-file]
+
+# Show Job
+$ kubectl get jobs
+
+# Delete Job 
+$ kubectl delete job [job-name]
