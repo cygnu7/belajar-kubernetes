@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: job-nodejs
+spec:
+  completions: 5
+  parallelism: 2
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: job-nodejs
+          image: cygnus7/nodejs-job
