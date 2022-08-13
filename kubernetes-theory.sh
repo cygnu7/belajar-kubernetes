@@ -122,3 +122,12 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Create apps to backup or restore database
 - Create apps to import or export data
 - Create apps to run batch proccess
+
+# What is Cron Job
+- Cron Job is Scheduler at Unix OS
+- To run apps as scheduled
+
+# Study Case sith Cron Job
+- Create apps to make daily report 
+- Create apps to backup data
+- Create apps to send billing every month

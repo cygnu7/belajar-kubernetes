@@ -113,3 +113,12 @@ $ kubectl get jobs
 
 # Delete Job 
 $ kubectl delete job [job-name]
+
+# Create Cron Job
+$ kubectl create -f [cronjob-file]
+
+# Show Cron Job
+$ kubectl get cronjobs
+
+# Delete Cron Job 
+$ kubectl delete cronjob [cronjob-name]
