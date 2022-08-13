@@ -133,4 +133,3 @@ $ kubectl get all --namespace [namespace-name]
 # Delete All Resources
 $ kubectl delete all --all
 $ kubectl delete all --namespace [namespace-name]
-

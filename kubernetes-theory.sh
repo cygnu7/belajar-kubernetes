@@ -134,3 +134,8 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 
 # What is Node Selector
 - To select node with specific details
+
+# What is Service
+- Kubernetes Resources to create a gateway to access Pod
+- Service have static IP address
+- Client can acceess the service and automatic forward to Pod behind the service 
