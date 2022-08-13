@@ -131,3 +131,6 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 - Create apps to make daily report 
 - Create apps to backup data
 - Create apps to send billing every month
+
+# What is Node Selector
+- To select node with specific details

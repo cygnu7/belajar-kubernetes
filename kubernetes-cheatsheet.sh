@@ -122,3 +122,9 @@ $ kubectl get cronjobs
 
 # Delete Cron Job 
 $ kubectl delete cronjob [cronjob-name]
+
+# Add Label to Node
+$ kubectl label node [node-name] [key]=[value]
+
+# Show All Resources
+$ kubectl get all
