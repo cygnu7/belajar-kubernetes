@@ -133,3 +133,18 @@ $ kubectl get all --namespace [namespace-name]
 # Delete All Resources
 $ kubectl delete all --all
 $ kubectl delete all --namespace [namespace-name]
+
+# Create Service
+$ kubectl create -f [service-file]
+
+# Show Service
+$ kubectl get services
+
+# Delete Service
+$ kubectl delete service [service-name]
+
+# Access Service from the Cluster
+$ kubectl exec [pod-name] -it -- /bin/sh 
+
+# Show Environtment Variable
+$ kubectl exec [pod-name] -- env

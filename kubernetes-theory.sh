@@ -138,4 +138,28 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 # What is Service
 - Kubernetes Resources to create a gateway to access Pod
 - Service have static IP address
-- Client can acceess the service and automatic forward to Pod behind the service 
+- Client can acceess the service and automatic forward to Pod behind the service
+- Service distrubute balance traffic to all Pod
+- Service use label selector to know wich Pod behind the service
+
+# How to Access Service
+- Use Environtment Variable
+- Use DNS
+
+# What is External Service
+- External Service is a Gateway to internal Pod
+- Service as a Gateway to External Apps outside the Kubernetes Cluster
+
+# Exposing Service
+- To allow apps outside Kubernetes to access Pod inside Kubernetes
+
+# Service Type
+- ClusterIp (default): Exposing Service inside kubernetes cluster
+- ExternalName: mapping service to ExternalName (example: example.com)
+- NodePort: Exposing Service for every IP node with same Port. (example: [NodeIP]:[NodePort])
+- LoadBalancer: Exposing Service use LoadBalancer
+
+# How to Exposing Service
+- Use NodePort (Node will open port to forward to Service)
+- Use LoadBalancer (Service access use LoadBalancer)
+- Use Ingress (Operation level HTTP)
