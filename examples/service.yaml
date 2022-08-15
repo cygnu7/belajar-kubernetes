@@ -21,5 +21,5 @@ metadata:
     name: curl
 spec:
   containers:
-  - name: curl
-    image: cygnus7/nginx-curl
+    - name: curl
+      image: cygnus7/nginx-curl

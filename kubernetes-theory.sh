@@ -161,5 +161,5 @@ Kubernetes is Apps to do Automation Deployment, Scaling, and Container Manager
 
 # How to Exposing Service
 - Use NodePort (Node will open port to forward to Service)
-- Use LoadBalancer (Service access use LoadBalancer)
-- Use Ingress (Operation level HTTP)
+- Use LoadBalancer (Service access use LoadBalancer, then LoadBalancer forward the request to NodePort)
+- Use Ingress (Resource to exposing Service, but operation level only HTTP)

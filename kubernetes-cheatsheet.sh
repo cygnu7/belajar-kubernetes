@@ -148,3 +148,16 @@ $ kubectl exec [pod-name] -it -- /bin/sh
 
 # Show Environtment Variable
 $ kubectl exec [pod-name] -- env
+
+# Access Service use DNS
+$ [service-name].[namespace-name].svc.cluster.local:[port]
+
+# Show Endpoint
+$ kubectl get endpoints
+
+# Show Service Endpoint
+$ kubectl describe service [service-name]
+$ kubectl get endpoints [service-name]
+
+# Show Nodeport at Minikube
+$ minikube service [service-name]
